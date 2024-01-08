@@ -1,0 +1,65 @@
+@viewport {
+  width: device-width;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+body {
+  background-color: #ffd547;
+}
+/* header {
+  background-color: #ffd547;
+} */
+#navigazione {
+  background-color: #ffd547;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+}
+#navigazione h1 {
+  margin-left: 50px;
+  font-size: 2.5rem;
+}
+#myButton {
+  position: absolute;
+  right: 100px;
+  /* all: unset; */
+  height: 60px;
+  width: 140px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main {
+  /* height: 60%; */
+  width: 100%;
+  height: 60%;
+  color: #000;
+  /* background-color: #fff; */
+  background: linear-gradient(to right, #ffd547 01%, #fff 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#zahl {
+  font-size: 6rem;
+}
